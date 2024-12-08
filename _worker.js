@@ -14,13 +14,13 @@ function routeByHosts(host) {
 	// 定义路由表
 	const routes = {
 		// 生产环境
-		"quay.shop.ip-ddns.com": "quay.io",
-		"gcr.shop.ip-ddns.com": "gcr.io",
-		"k8s-gcr.shop.ip-ddns.com": "k8s.gcr.io",
-		"k8s.shop.ip-ddns.com": "registry.k8s.io",
-		"ghcr.shop.ip-ddns.com": "ghcr.io",
-		"cloudsmith.shop.ip-ddns.com": "docker.cloudsmith.io",
-		"nvcr.shop.ip-ddns.com": "nvcr.io",
+		"quay.shop.ip-ddns.com": "https://quay.io",
+		"gcr.shop.ip-ddns.com": "ttps://gcr.io",
+		"k8s-gcr.shop.ip-ddns.com": "ttps://k8s.gcr.io",
+		"k8s.shop.ip-ddns.com": "ttps://registry.k8s.io",
+		"ghcr.shop.ip-ddns.com": "ttps://ghcr.io",
+		"cloudsmith.shop.ip-ddns.com": "ttps://docker.cloudsmith.io",
+		"nvcr.shop.ip-ddns.com": "ttps://nvcr.io",
 		
 		// 测试环境
 		"test.shop.ip-ddns.com": "registry-1.docker.io",
