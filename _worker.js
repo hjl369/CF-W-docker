@@ -14,16 +14,16 @@ function routeByHosts(host) {
 	// 定义路由表
 	const routes = {
 		// 生产环境
-		"quay": "quay.io",
-		"gcr": "gcr.io",
-		"k8s-gcr": "k8s.gcr.io",
-		"k8s": "registry.k8s.io",
-		"ghcr": "ghcr.io",
-		"cloudsmith": "docker.cloudsmith.io",
-		"nvcr": "nvcr.io",
+		"quay.shop.ip-ddns.com": "quay.io",
+		"gcr.shop.ip-ddns.com": "gcr.io",
+		"k8s-gcr.shop.ip-ddns.com": "k8s.gcr.io",
+		"k8s.shop.ip-ddns.com": "registry.k8s.io",
+		"ghcr.shop.ip-ddns.com": "ghcr.io",
+		"cloudsmith.shop.ip-ddns.com": "docker.cloudsmith.io",
+		"nvcr.shop.ip-ddns.com": "nvcr.io",
 		
 		// 测试环境
-		"test": "registry-1.docker.io",
+		"test.shop.ip-ddns.com": "registry-1.docker.io",
 	};
 
 	if (host in routes) return [ routes[host], false ];
