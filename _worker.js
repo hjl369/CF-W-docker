@@ -15,15 +15,15 @@ function routeByHosts(host) {
 	const routes = {
 		// 生产环境
 		"quay.shop.ip-ddns.com": "https://quay.io",
-		"gcr.shop.ip-ddns.com": "ttps://gcr.io",
-		"k8s-gcr.shop.ip-ddns.com": "ttps://k8s.gcr.io",
-		"k8s.shop.ip-ddns.com": "ttps://registry.k8s.io",
-		"ghcr.shop.ip-ddns.com": "ttps://ghcr.io",
-		"cloudsmith.shop.ip-ddns.com": "ttps://docker.cloudsmith.io",
-		"nvcr.shop.ip-ddns.com": "ttps://nvcr.io",
+		"gcr.shop.ip-ddns.com": "https://gcr.io",
+		"k8s-gcr.shop.ip-ddns.com": "https://k8s.gcr.io",
+		"k8s.shop.ip-ddns.com": "https://registry.k8s.io",
+		"ghcr.shop.ip-ddns.com": "https://ghcr.io",
+		"cloudsmith.shop.ip-ddns.com": "https://docker.cloudsmith.io",
+		"nvcr.shop.ip-ddns.com": "https://nvcr.io",
 		
 		// 测试环境
-		"test.shop.ip-ddns.com": "registry-1.docker.io",
+		"test.shop.ip-ddns.com": "https://registry-1.docker.io",
 	};
 
 	if (host in routes) return [ routes[host], false ];
